@@ -12,4 +12,12 @@
    ```shell
     ./vendor/bin/sail artisan migrate
    ```
+4. Run seeders
+    ```shell
+    ./vendor/bin/sail artisan db:seed
+    ```
+5. Run interval list command
+    ```shell
+    ./vendor/bin/sail artisan intervals:list --left=23 --right=1000
+    ```
 
